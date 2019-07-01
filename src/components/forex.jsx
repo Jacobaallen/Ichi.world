@@ -1,3 +1,7 @@
+import React, { useContext } from 'react'
+import '../styles/forex.css';
+
+
 class ForexList extends React.Component{
         state = {
           base:   'USD',

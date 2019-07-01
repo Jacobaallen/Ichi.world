@@ -1,0 +1,16 @@
+body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        place-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: mistyrose;
+      }
+      ul{
+        line-height: 1.2rem;
+        list-style: none;
+      }
+      input, select{
+        margin: 10px;
+      }
