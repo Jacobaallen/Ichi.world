@@ -3,5 +3,7 @@ import Map from './Map';
 
 
 export default function Home() {
-    return <div>home</div>;
+    return <Map/>
   }
+
+  
