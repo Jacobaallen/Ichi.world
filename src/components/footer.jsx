@@ -1,10 +1,5 @@
 import React, { useContext } from 'react'
 
-class Home extends Component {
-  render () {
-    return (
-      <p>nav</p>
-    })
+export default function Footer() {
+    return <div>Footer</div>;
   }
-
-  export default Footer;

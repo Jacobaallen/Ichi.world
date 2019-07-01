@@ -1,8 +1,5 @@
 import React, { useContext } from 'react'
 
-class Home extends Component {
-  render () {
-    return (
-      <p>home</p>
-    })
+export default function Map() {
+    return <div>home</div>;
   }
