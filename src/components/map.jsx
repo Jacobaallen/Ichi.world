@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactMapGL, {Marker} from "react-map-gl"
-import * as geolocate from "./Geolocation.jsx"
+
 
 export  default function App() {
 const [viewport, setViewport] = useState({
@@ -19,11 +19,8 @@ const [viewport, setViewport] = useState({
           setViewport(viewport);
         }}
         >
-          {geolocate.getLocation.map((location) => (
-            <Marker key={location.navigator.}>
-              <div>location</div>
-            </Marker>
-          ))}
+        Markers here
+
       </ReactMapGL>
     </div>
   );
