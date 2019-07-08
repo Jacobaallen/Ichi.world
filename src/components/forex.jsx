@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import '../styles/forex.css';
+import ReactDOM from 'react-dom'
 
 
 class ForexList extends React.Component{
