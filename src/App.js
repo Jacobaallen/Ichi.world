@@ -9,8 +9,8 @@ class App extends React.Component{
   render () {
     return (
     <Router>
-      <Navbar/>
       <Route exact path="/" component={Home} />
+      <Navbar/>
       <Footer/>
     </Router>
   )}
