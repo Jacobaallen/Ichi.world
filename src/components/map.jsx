@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ReactMapGL, {Marker} from "react-map-gl"
+import ReactMapGL from "react-map-gl"
 
 
 export  default function App() {
