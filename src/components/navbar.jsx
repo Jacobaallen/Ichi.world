@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../styles/navbar.css';
-import Home from './Home';
-import Map from './Map';
-import Forex from './Forex';
 
-export default function Navbar() {
+class Navbar extends Component() {
+  render () {
     return (
-      <nav className= "nav">
-        <a className="navbar-link" href="/Map">Home</a>
-        <a className="navbar-link" href="/Forex">Money exchange</a>
-      </nav>
-    )
+        <div className="nav">
+          <ul>
+            <Link to="/">Home</Link>
+            <Link to="/Forex">Money exchange</Link>
+          </ul>
+        </div>
+      )
+    }
   }
+
+export default Navbar;
