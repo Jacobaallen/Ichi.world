@@ -74,3 +74,7 @@ class ForexList extends React.Component{
       }
 
       ReactDOM.render(<ForexList/>, document.body)
+
+
+
+      export default ForexList;
