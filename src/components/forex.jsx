@@ -73,7 +73,6 @@ class ForexList extends React.Component{
         }
       }
 
-      ReactDOM.render(<ForexList/>, document.body)
 
 
 

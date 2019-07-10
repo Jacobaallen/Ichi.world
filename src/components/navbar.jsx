@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../styles/navbar.css';
 
-class Navbar extends Component() {
+class Navbar extends Component{
   render () {
     return (
         <div className="nav">
