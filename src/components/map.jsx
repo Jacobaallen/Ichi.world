@@ -23,5 +23,14 @@ const [viewport, setViewport] = useState({
 
       </ReactMapGL>
     </div>
+
+    <div className="forex-page">
+      <button className="forex-button" onClick="openForex()">Money exchange</button>
+      <div className="forex-popup" id="myForex">
+        <script src="forex.jsx"></script>
+        <button type="button" className="btncancel" onClick="closeForex()">Close</button>
+      </div>
+
+    </div>
   );
 }

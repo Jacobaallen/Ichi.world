@@ -1,0 +1,7 @@
+{
+  "type": "FearureCollection",
+  "crs":{
+    "type":"name",
+    "properties": {"name": "urn:ogc:def:"}
+  }
+}
