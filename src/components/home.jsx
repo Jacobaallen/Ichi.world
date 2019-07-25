@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Map from './Map';
-import Forex from './Forex';
+import Draw1 from './Draw1';
 import Drawer from 'react-drag-drawer';
 import '../styles/Home.css';
 
@@ -15,7 +15,7 @@ class Home extends Component {
         </div>
 
         <div className="moneyex">
-
+          <Draw1/>
         </div>
       </div>
     )
