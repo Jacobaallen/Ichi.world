@@ -4,18 +4,14 @@ import Forex from './Forex';
 import '../styles/Draw1.css';
 
 
-
 toggle = () => {
   let { toggle } = this.state
 
   this.setState({ toggle: !toggle })
 }
 
-logState = () => {
-  console.log(`Drawer now ${this.state.open ? 'open' : 'closed'}`)
-}
-
-render () {
+class Draw1 extends React.Component {
+render() {
   const { open } = this.state
 
   return (
@@ -27,7 +23,7 @@ render () {
         <Forex/>
       </div>
     </Drawer>
-  )
-};
+  );
+}};
 
 export default Draw1;
