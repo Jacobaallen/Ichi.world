@@ -8,7 +8,7 @@ class Navbar extends Component{
         <div className="nav">
           <ul>
             <Link to="/">Home</Link>
-            <Link to="/Forex">Money exchange</Link>
+            <Link to="/Draw1">Money exchange</Link>
           </ul>
         </div>
       )
