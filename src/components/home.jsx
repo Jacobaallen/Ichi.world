@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Map from './Map';
-import Draw1 from './Draw1';
+import Forex from './Forex'
 import '../styles/Home.css';
+
+
 
 
 
@@ -12,10 +14,11 @@ class Home extends Component {
         <div className="map">
           <Map/>
         </div>
-
-        <div className="moneyex">
-          <Draw1/>
+        <div className="money">
+          <Forex/>
         </div>
+
+
       </div>
     )
   }
