@@ -3,5 +3,20 @@
   "crs":{
     "type":"name",
     "properties": {"name": "urn:ogc:def:"}
-  }
+  },
+  "features":[
+    {
+      "type": "Feature",
+      "properties": {
+        "museum_ID" : 1,
+        "FACILITYID" : 10000,
+        "NAME": "Phillip and Patricia Frost Museum of Science",
+        "ADDRESS": "1101 Biscayne Blvd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.786936,  -80.189101]
+      }
+    }
+  ]
 }
