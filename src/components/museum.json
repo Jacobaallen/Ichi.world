@@ -9,14 +9,91 @@
       "type": "Feature",
       "properties": {
         "museum_ID" : 1,
-        "FACILITYID" : 10000,
+        "FACILITYID" : 10001,
         "NAME": "Phillip and Patricia Frost Museum of Science",
-        "ADDRESS": "1101 Biscayne Blvd"
+        "ADDRESS": "1101 Biscayne Blvd",
+        "location": "Miami, FL",
+        "type_of_museum":"Science"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.786936,  -80.189101]
+        "coordinates": [25.786936, -80.189101]
       }
+    },
+    {
+      "type" : "Feature",
+      "properties" : {
+        "museum_ID" : 2,
+        "FACILITYID" : 10002,
+        "NAME": "Pérez Art Museum Miami",
+        "ADDRESS": "1101 Biscayne Blvd",
+        "location": "Miami, Fl",
+        "type_of_museum":"Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.786936, -80.189101]
+      }
+    },
+    {
+    "type" : "Feature",
+    "properties" : {
+      "museum_ID" : 3,
+      "FACILITYID" : 10003,
+      "NAME": "Miami History Museum",
+      "ADDRESS": "101 W Flagler St, Miami, FL 33130",
+      "location": "Miami, Fl",
+      "type_of_museum":"History"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [25.774463, -80.196588]
     }
+  },
+  {
+    "type" : "Feature",
+    "properties" : {
+     "museum_ID" : 4,
+     "FACILITYID" : 10004,
+     "NAME": "Vizcaya Museum & Gardens",
+     "ADDRESS": "3251 S Miami Ave, Miami, FL 33129",
+     "location": "Miami, Fl",
+     "type_of_museum":"History and Garden"
+    },
+    "geometry": {
+    "type": "Point",
+    "coordinates": [25.744375, -80.210497]
+  }
+},
+{
+  "type" : "Feature",
+  "properties" : {
+  "museum_ID" : 5,
+  "FACILITYID" : 10005,
+  "NAME": "De la Cruz Collection",
+  "ADDRESS": "23 NE 41st St, Miami, FL 33137",
+  "location": "Miami, Fl",
+  "type_of_museum":"Art"
+},
+  "geometry": {
+  "type": "Point",
+  "coordinates": [25.814321, -80.194905]
+}
+},
+{
+  "type" : "Feature",
+  "properties" : {
+  "museum_ID" : 6,
+  "FACILITYID" : 10006,
+  "NAME": "Gold Coast Railroad Museum",
+  "ADDRESS": "12450 SW 152nd St, Miami, FL 33177",
+  "location": "Miami, Fl",
+  "type_of_museum":"History"
+},
+  "geometry": {
+  "type": "Point",
+  "coordinates": [25.617174, -80.400757]
+}
+},
   ]
 }
