@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import ReactMapGL {Marker} from "react-map-gl"
+import ReactMapGL, { Marker } from "react-map-gl";
+import * as museumData from "./museum.json";
 
 
 export  default function App() {
@@ -19,7 +20,18 @@ const [viewport, setViewport] = useState({
           setViewport(viewport);
         }}
         >
+        {museumData.features.map((mueseum)=>(
+          <Marker
+            key={mueseum.properties.MUSEUM_ID}
+            latitude={mueseum.geometry.coordinates[1]}
+            longitude={mueseum.geometry.coordinates[0]}
+            >
 
+            <button className="marker-btn">
+              <img src="/Museum.png" alt="Museum Icon" />
+            </button>
+          </Marker>
+        ))}
 
 
       </ReactMapGL>

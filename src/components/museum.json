@@ -8,7 +8,7 @@
     {
       "type": "Feature",
       "properties": {
-        "museum_ID" : 1,
+        "MUSEUM_ID" : 1,
         "FACILITYID" : 10001,
         "NAME": "Phillip and Patricia Frost Museum of Science",
         "ADDRESS": "1101 Biscayne Blvd",
@@ -94,6 +94,6 @@
       "type": "Point",
       "coordinates": [25.617174, -80.400757]
     }
-  },
+  }
   ]
 }
