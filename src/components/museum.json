@@ -61,39 +61,39 @@
      "type_of_museum":"History and Garden"
     },
     "geometry": {
-    "type": "Point",
-    "coordinates": [25.744375, -80.210497]
+      "type": "Point",
+      "coordinates": [25.744375, -80.210497]
   }
 },
 {
   "type" : "Feature",
   "properties" : {
-  "museum_ID" : 5,
-  "FACILITYID" : 10005,
-  "NAME": "De la Cruz Collection",
-  "ADDRESS": "23 NE 41st St, Miami, FL 33137",
-  "location": "Miami, Fl",
-  "type_of_museum":"Art"
-},
-  "geometry": {
-  "type": "Point",
-  "coordinates": [25.814321, -80.194905]
-}
-},
-{
-  "type" : "Feature",
-  "properties" : {
-  "museum_ID" : 6,
-  "FACILITYID" : 10006,
-  "NAME": "Gold Coast Railroad Museum",
-  "ADDRESS": "12450 SW 152nd St, Miami, FL 33177",
-  "location": "Miami, Fl",
-  "type_of_museum":"History"
-},
-  "geometry": {
-  "type": "Point",
-  "coordinates": [25.617174, -80.400757]
-}
-},
+   "museum_ID" : 5,
+   "FACILITYID" : 10005,
+   "NAME": "De la Cruz Collection",
+   "ADDRESS": "23 NE 41st St, Miami, FL 33137",
+   "location": "Miami, Fl",
+   "type_of_museum":"Art"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [25.814321, -80.194905]
+    }
+    },
+    {
+    "type" : "Feature",
+    "properties" : {
+      "museum_ID" : 6,
+      "FACILITYID" : 10006,
+      "NAME": "Gold Coast Railroad Museum",
+      "ADDRESS": "12450 SW 152nd St, Miami, FL 33177",
+      "location": "Miami, Fl",
+      "type_of_museum":"History"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [25.617174, -80.400757]
+    }
+  },
   ]
 }
