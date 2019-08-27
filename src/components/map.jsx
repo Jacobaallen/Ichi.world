@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactMapGL, { Marker } from "react-map-gl";
 import * as museumData from "./museum.json";
+import "../styles/Map.css";
 
 
 export  default function App() {
@@ -16,6 +17,7 @@ const [viewport, setViewport] = useState({
     <div>
       <ReactMapGL {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        mapStyle="mapbox://styles/loghorizon/cjzuari2j024k1cpmup5rkywa"
         onViewportChange={viewport => {
           setViewport(viewport);
         }}
