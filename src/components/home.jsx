@@ -14,9 +14,6 @@ class Home extends Component {
         <div className="map">
           <Map/>
         </div>
-        <div className="money">
-          <Forex/>
-        </div>
 
 
       </div>

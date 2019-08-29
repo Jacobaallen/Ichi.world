@@ -7,8 +7,9 @@ class Navbar extends Component{
     return (
         <div className="nav">
           <ul>
-            <Link to="/">Home</Link>
-            <Link to="/forex">Money</Link>
+            <a href="/"><img src="/giphy.gif" alt="logo" width="47" height="55"/></a>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/forex">Money</Link></li>
           </ul>
         </div>
       )

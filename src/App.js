@@ -9,9 +9,9 @@ class App extends React.Component{
   render () {
     return (
     <Router>
+      <Navbar/>
       <Route exact path="/" component={Home} />
       <Route exact path="/forex" component={Forex} />
-      <Navbar/>
       <Footer/>
     </Router>
   )}
