@@ -10,6 +10,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: scroll;
+  width: 100%;
 }
 
 li {
@@ -22,6 +23,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
 }
 
 li a:hover {
@@ -32,8 +34,8 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right,

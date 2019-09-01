@@ -1,11 +1,13 @@
-
-.map {
-  width: 500px;
-  height: 400px;
-  margin: 10px;
-
+body {
+  display:  block;
 }
 
-.money {
-  display: flex;
+.map {
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
