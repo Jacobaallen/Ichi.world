@@ -94,6 +94,21 @@
       "type": "Point",
       "coordinates": [-80.400757, 25.617174]
     }
+  },
+  {
+  "type" : "Feature",
+  "properties" : {
+    "MUSEUM_ID" : 7,
+    "FACILITYID" : 10007,
+    "NAME": "Museum of Discovery and Science",
+    "ADDRESS": "401 SW 2nd St, Fort Lauderdale, FL 33312",
+    "location": "Fort Lauderdale, Fl",
+    "type_of_museum":"Science"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-80.147583, 26.120527]
   }
+}
   ]
 }

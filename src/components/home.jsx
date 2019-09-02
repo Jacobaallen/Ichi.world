@@ -11,7 +11,7 @@ class Home extends Component {
   render () {
     return(
       <div className="master">
-        <div className="map">
+        <div className="map" id="map">
           <Map/>
         </div>
 
