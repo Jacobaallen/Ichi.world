@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Map from './Map';
-import Forex from './Forex'
 import '../styles/Home.css';
 
 
