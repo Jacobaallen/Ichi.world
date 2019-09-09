@@ -5,17 +5,15 @@ import '../styles/navbar.css';
 class Navbar extends Component{
   render () {
     return (
-        <div className="nav">
-          <ul>
+        <div className="sidenav">
             <div className="logo">
               <a href="/"><img src="/giphy.gif" alt="logo" width="47" height="55"/></a>
             </div>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><a href="#map">Map</a></li>
-            <li><Link to="/forex">Money</Link></li>
-            <li><Link to="/blog">Travel Logs</Link></li>
-          </ul>
+            <a className="active" href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/">Map</a>
+            <a href="/forex">Money</a>
+            <a href="/blog">Travel Logs</a>
         </div>
       )
     }
