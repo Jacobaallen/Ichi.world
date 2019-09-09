@@ -57,8 +57,7 @@ class ForexList extends React.Component{
                   }
                 </select>
               </div>
-              <div>
-                <ul>
+              <div className="listing-forex">
                   {
                     Object.keys(rates).sort().map(currency => (
                       <li key={currency}>
@@ -66,7 +65,6 @@ class ForexList extends React.Component{
                       </li>
                     ))
                   }
-                </ul>
               </div>
             </React.Fragment>
           )

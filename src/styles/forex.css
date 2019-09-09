@@ -7,9 +7,13 @@ body{
         height: 100vh;
         background-color: white;
       }
-      ul{
-        line-height: 1.2rem;
-        list-style: none;
+      listing-forex{
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        align-items: center;
+        height: 100%;
+        width: 50%;
       }
       input, select{
         margin: 10px;
