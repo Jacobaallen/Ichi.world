@@ -13,6 +13,7 @@ class Navbar extends Component{
             <li><Link to="/">Home</Link></li>
             <li><a href="#map">Map</a></li>
             <li><Link to="/forex">Money</Link></li>
+            <li><Link to="/blog">Travel Logs</Link></li>
           </ul>
         </div>
       )

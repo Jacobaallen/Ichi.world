@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Forex from './components/Forex';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Blog from './components/Blog';
 
 class App extends React.Component{
   render () {
@@ -12,6 +13,7 @@ class App extends React.Component{
       <Navbar/>
       <Route exact path="/" component={Home} />
       <Route exact path="/forex" component={Forex} />
+      <Route exact path="/blog" component={Blog} />
       <Footer/>
     </Router>
   )}
