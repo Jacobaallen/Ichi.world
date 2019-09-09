@@ -39,8 +39,19 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right,
-  ul.topnav li {float: none;}
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #61A949;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .logo {
