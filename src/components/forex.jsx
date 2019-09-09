@@ -40,7 +40,7 @@ class ForexList extends React.Component{
           return(
             <React.Fragment>
               <div>
-                <h1>How much is it worth?</h1>
+                <h1>Foreign Currency Exchange Rates</h1>
                 <input
                   type="number"
                   min={1}

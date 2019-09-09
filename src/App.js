@@ -5,15 +5,13 @@ import Forex from './components/Forex';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
-import About from './components/About';
-
+ 
 class App extends React.Component{
   render () {
     return (
     <Router>
       <Navbar/>
       <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/forex" component={Forex} />
       <Footer/>
