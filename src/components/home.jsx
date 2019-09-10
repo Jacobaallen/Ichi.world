@@ -10,6 +10,9 @@ class Home extends Component {
   render () {
     return(
       <div className="master">
+        <div className="top">
+          
+        </div>
         <div className="map" id="map">
           <Map/>
         </div>
