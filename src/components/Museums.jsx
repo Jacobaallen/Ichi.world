@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import Map from './Map';
-import '../styles/Home.css';
+import '../styles/Museums.css';
 
-
-
-
-
-class Home extends Component {
+class Museums extends Component {
   render () {
     return(
       <div className="master">
@@ -22,4 +18,4 @@ class Home extends Component {
     )
   }
 }
-export default Home;
+export default Museums;
