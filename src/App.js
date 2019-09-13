@@ -5,7 +5,8 @@ import Forex from './components/Forex';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
-import Map2 from './components/Map2';
+import Museums from './components/Museums';
+import Attraction from './components/Attraction';
 
 class App extends React.Component{
   render () {
@@ -15,7 +16,8 @@ class App extends React.Component{
       <Route exact path="/" component={Home} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/forex" component={Forex} />
-      <Route exact path="/map2" component={map2} />
+      <Route exact path="/museums" component={Museums} />
+      <Route exact path="/attraction" component={Attraction} />
     </Router>
   )}
 }

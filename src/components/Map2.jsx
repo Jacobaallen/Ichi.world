@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactMapGL, { Marker } from "react-map-gl";
-// import * as museumData from "./museum.json";
+import * as attractionData from "./Attraction.json";
 import "../styles/Map2.css";
 
 
@@ -22,9 +22,9 @@ const [viewport, setViewport] = useState({
           setViewport(viewport);
         }}
         >
-        {museumData.features.map((mueseum)=>(
+        {attractionData.features.map((attraction)=>(
           <Marker
-            key={action.properties.ACTION_ID}
+            key={attraction.properties.ATTRACTION_ID}
             latitude={attraction.geometry.coordinates[1]}
             longitude={attraction.geometry.coordinates[0]}
             >

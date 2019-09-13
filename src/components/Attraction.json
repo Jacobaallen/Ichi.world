@@ -1,0 +1,39 @@
+{
+  "type": "FearureCollection",
+  "crs":{
+    "type":"name",
+    "properties": {"name": "urn:ogc:def:"}
+  },
+  "features":[
+    {
+      "type": "Feature",
+      "properties": {
+        "ATTRACTION_ID" : 1,
+        "FACILITYID" : 20001,
+        "NAME": "Bayside Marketplace",
+        "ADDRESS": "401 Biscayne Blvd",
+        "location": "Miami, FL",
+        "type_of_Attraction":"Outdoor Mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1870937, 25.7782365]
+      }
+    },
+    {
+      "type" : "Feature",
+      "properties" : {
+        "ATTRACTION_ID" : 2,
+        "FACILITYID" : 20002,
+        "NAME": "Miami Heat",
+        "ADDRESS": "601 Biscayne Blvd",
+        "location": "Miami, Fl",
+        "type_of_Attraction":"Professional Basketball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.18722, 25.78083]
+      }
+    }
+  ]
+}

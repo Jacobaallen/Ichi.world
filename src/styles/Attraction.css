@@ -2,7 +2,7 @@ body {
   display: block;
 }
 
-.map {
+.map2 {
   align-items: center;
   height: 100%;
   width: 50%;
@@ -13,7 +13,7 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .map {
+  .map2 {
     margin-top: 100px;
     height: 100%;
     width: 100%;
