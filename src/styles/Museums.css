@@ -2,6 +2,10 @@ body {
   display: block;
 }
 
+.top-title-1{
+  text-align: center;
+}
+
 .map {
   align-items: center;
   height: 100%;
