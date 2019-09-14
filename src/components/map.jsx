@@ -30,7 +30,7 @@ const [viewport, setViewport] = useState({
             >
 
             <button className="marker-btn">
-              <img src="/Museum.png" alt="Museum Icon" />
+              <img src="/images/Museum.png" alt="Museum Icon" />
             </button>
           </Marker>
         ))}

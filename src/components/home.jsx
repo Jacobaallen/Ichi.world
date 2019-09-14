@@ -9,10 +9,10 @@ class Home extends Component {
   render () {
     return(
       <div className="master">
-        <div className="top">
+        <div className="hero-image">
 
         </div>
-        
+
 
 
       </div>
