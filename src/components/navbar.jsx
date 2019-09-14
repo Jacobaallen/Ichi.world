@@ -8,7 +8,7 @@ class Navbar extends Component{
         <div className="nav">
             <li><a href="/"><img src="/giphy.gif" alt="logo" width="47" height="55"/></a></li>
             <li><a href="/">Home</a></li>
-            <li><a href="/Attraction">Attraction Map</a></li>
+            <li><a href="/Attract">Attraction Map</a></li>
             <li><a href="/Museums">Museum Map</a></li>
             <li><Link to="/forex">Money</Link></li>
             <li><Link to="/blog">Travel Logs</Link></li>

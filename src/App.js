@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
 import Museums from './components/Museums';
-import Attraction from './components/Attraction';
+import Attraction from './components/Attract';
 
 class App extends React.Component{
   render () {
@@ -17,7 +17,7 @@ class App extends React.Component{
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/forex" component={Forex} />
       <Route exact path="/museums" component={Museums} />
-      <Route exact path="/attraction" component={Attraction} />
+      <Route exact path="/attract" component={Attraction} />
     </Router>
   )}
 }
