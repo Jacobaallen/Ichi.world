@@ -6,7 +6,7 @@ class Blog extends Component {
     return(
           <div className="master">
             <div className="top-title-3">
-              <h1>Museums</h1>
+              <h1>Travel Logs</h1>
             </div>
             <div className="cards" id="cards">
               <Travelcards/>
