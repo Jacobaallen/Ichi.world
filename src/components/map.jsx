@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ReactMapGL, { Marker } from "react-map-gl";
+import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as museumData from "./museum.json";
 import "../styles/Map.css";
 
@@ -12,6 +12,7 @@ const [viewport, setViewport] = useState({
   height: '100vh',
   zoom: 10
 });
+const [selectedMuseum, setSelectetMuseum] = useState(null);
 
   return (
     <div>
@@ -22,20 +23,31 @@ const [viewport, setViewport] = useState({
           setViewport(viewport);
         }}
         >
-        {museumData.features.map((mueseum)=>(
+        {museumData.features.map(museum => (
           <Marker
-            key={mueseum.properties.MUSEUM_ID}
-            latitude={mueseum.geometry.coordinates[1]}
-            longitude={mueseum.geometry.coordinates[0]}
+            key={museum.properties.MUSEUM_ID}
+            latitude={museum.geometry.coordinates[1]}
+            longitude={museum.geometry.coordinates[0]}
             >
 
-            <button className="marker-btn">
+            <button className="marker-btn" onClick={(e) => {
+                e.preventDefault();
+                setSelectetMuseum(museum)
+              }}
+            >
               <img src="/images/Museum.png" alt="Museum Icon" />
             </button>
           </Marker>
         ))}
 
-
+        {selectedMuseum ? (
+          <Popup latitude={selectedMuseum.geometry.coordinates[1]}
+                 longitude={selectedMuseum.geometry.coordinates[0]}>
+            <div>
+              park
+            </div>
+          </Popup>
+        ) : null}
       </ReactMapGL>
     </div>
 
