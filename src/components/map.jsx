@@ -44,7 +44,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
           <Popup latitude={selectedMuseum.geometry.coordinates[1]}
                  longitude={selectedMuseum.geometry.coordinates[0]}>
             <div>
-              park
+              <h2>{selectedMuseum.properties.NAME}</h2>
             </div>
           </Popup>
         ) : null}

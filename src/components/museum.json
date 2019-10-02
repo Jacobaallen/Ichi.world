@@ -13,7 +13,8 @@
         "NAME": "Phillip and Patricia Frost Museum of Science",
         "ADDRESS": "1101 Biscayne Blvd",
         "location": "Miami, FL",
-        "type_of_museum":"Science"
+        "type_of_museum":"Science",
+        "DESCRIPTIO": "Hands-on facility offers weather & technology exhibits, planetarium & wildlife centers."
       },
       "geometry": {
         "type": "Point",
@@ -28,7 +29,8 @@
         "NAME": "Pérez Art Museum Miami",
         "ADDRESS": "1101 Biscayne Blvd",
         "location": "Miami, Fl",
-        "type_of_museum":"Art"
+        "type_of_museum":"Art",
+        "DESCRIPTIO": "Pérez Art Museum Miami (PAMM) is a modern and contemporary art museum dedicated to collecting and exhibiting international art of the 20th and 21st centuries."
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +45,8 @@
       "NAME": "Miami History Museum",
       "ADDRESS": "101 W Flagler St, Miami, FL 33130",
       "location": "Miami, Fl",
-      "type_of_museum":"History"
+      "type_of_museum":"History",
+      "DESCRIPTIO": "History Miami Museum, formerly known as the Historical Museum of Southern Florida, is a museum located in Downtown Miami, Florida, United States. History Miami Museum is the largest history museum in the State of Florida."
     },
     "geometry": {
       "type": "Point",
@@ -58,7 +61,8 @@
      "NAME": "Vizcaya Museum & Gardens",
      "ADDRESS": "3251 S Miami Ave, Miami, FL 33129",
      "location": "Miami, Fl",
-     "type_of_museum":"History and Garden"
+     "type_of_museum":"History and Garden",
+     "DESCRIPTIO": "The Vizcaya Museum and Gardens, previously known as Villa Vizcaya, is the former villa and estate of businessman James Deering, of the Deering McCormick-International Harvester fortune."
     },
     "geometry": {
       "type": "Point",
@@ -73,7 +77,8 @@
    "NAME": "De la Cruz Collection",
    "ADDRESS": "23 NE 41st St, Miami, FL 33137",
    "location": "Miami, Fl",
-   "type_of_museum":"Art"
+   "type_of_museum":"Art",
+   "DESCRIPTIO": "Owned by the Cuban-born American businessman Carlos de la Cruz and his wife Rosa. It houses their art collection and is open to the public free of charge."
     },
     "geometry": {
       "type": "Point",
@@ -88,7 +93,8 @@
       "NAME": "Gold Coast Railroad Museum",
       "ADDRESS": "12450 SW 152nd St, Miami, FL 33177",
       "location": "Miami, Fl",
-      "type_of_museum":"History"
+      "type_of_museum":"History",
+      "DESCRIPTIO": "Is the largest collection of trains in Floirda. Features FDR train Cart. It also have a working locomative."
     },
     "geometry": {
       "type": "Point",
@@ -100,10 +106,27 @@
   "properties" : {
     "MUSEUM_ID" : 7,
     "FACILITYID" : 10007,
+    "NAME": "Artechouse",
+    "ADDRESS": "736 Collins Ave, Miami Beach, FL 33139",
+    "location": "Miami, Fl",
+    "type_of_museum":"Digital Art",
+    "DESCRIPTIO": "Is a digital art experence."
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-80.400757, 25.617174]
+  }
+},
+  {
+  "type" : "Feature",
+  "properties" : {
+    "MUSEUM_ID" : 8,
+    "FACILITYID" : 10008,
     "NAME": "Museum of Discovery and Science",
     "ADDRESS": "401 SW 2nd St, Fort Lauderdale, FL 33312",
     "location": "Fort Lauderdale, Fl",
-    "type_of_museum":"Science"
+    "type_of_museum":"Science",
+    "DESCRIPTIO": "The features mutiple simulaters, wildlife, and inter active exhibits."
   },
   "geometry": {
     "type": "Point",
