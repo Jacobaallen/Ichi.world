@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import * as museumData from "./museum.json";
 import "../styles/Map.css";
@@ -13,6 +13,18 @@ const [viewport, setViewport] = useState({
   zoom: 10
 });
 const [selectedMuseum, setSelectetMuseum] = useState(null);
+
+//this is to use the button esc on the key board.
+  useEffect(() => {
+    const listener = e => {
+      if (e.key === "Escape") {
+        setSelectetMuseum(null);
+      }
+    };
+    window.addEventListener("keydown", listener);
+
+
+  }, []);
 
   return (
     <div>
@@ -41,10 +53,18 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
         ))}
 
         {selectedMuseum ? (
-          <Popup latitude={selectedMuseum.geometry.coordinates[1]}
-                 longitude={selectedMuseum.geometry.coordinates[0]}>
+          //This is all happening in a Popup.
+          <Popup
+             latitude={selectedMuseum.geometry.coordinates[1]}
+             longitude={selectedMuseum.geometry.coordinates[0]}
+             onClose={() => {
+               setSelectetMuseum(null);
+             }}
+             >
             <div>
               <h2>{selectedMuseum.properties.NAME}</h2>
+              <p>{selectedMuseum.properties.DESCRIPTIO}</p>
+              <p>{selectedMuseum.properties.TIME}</p>
             </div>
           </Popup>
         ) : null}

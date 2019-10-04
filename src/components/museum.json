@@ -14,7 +14,8 @@
         "ADDRESS": "1101 Biscayne Blvd",
         "location": "Miami, FL",
         "type_of_museum":"Science",
-        "DESCRIPTIO": "Hands-on facility offers weather & technology exhibits, planetarium & wildlife centers."
+        "DESCRIPTIO": "Hands-on facility offers weather & technology exhibits, planetarium & wildlife centers.",
+        "TIME":"Monday - Sunday: 9:30am to 6pm"
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +31,8 @@
         "ADDRESS": "1101 Biscayne Blvd",
         "location": "Miami, Fl",
         "type_of_museum":"Art",
-        "DESCRIPTIO": "Pérez Art Museum Miami (PAMM) is a modern and contemporary art museum dedicated to collecting and exhibiting international art of the 20th and 21st centuries."
+        "DESCRIPTIO": "Pérez Art Museum Miami (PAMM) is a modern and contemporary art museum dedicated to collecting and exhibiting international art of the 20th and 21st centuries.",
+        "TIME": "Thursday - Thursday: 10am to 6pm, Closed Wednesday"
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +48,8 @@
       "ADDRESS": "101 W Flagler St, Miami, FL 33130",
       "location": "Miami, Fl",
       "type_of_museum":"History",
-      "DESCRIPTIO": "History Miami Museum, formerly known as the Historical Museum of Southern Florida, is a museum located in Downtown Miami, Florida, United States. History Miami Museum is the largest history museum in the State of Florida."
+      "DESCRIPTIO": "History Miami Museum, formerly known as the Historical Museum of Southern Florida, is a museum located in Downtown Miami, Florida, United States. History Miami Museum is the largest history museum in the State of Florida.",
+      "TIME": "Tuesday - Saturday: 10am to 5pm, Sunday: 12pm to 5pm, Closed Monday"
     },
     "geometry": {
       "type": "Point",
@@ -62,7 +65,8 @@
      "ADDRESS": "3251 S Miami Ave, Miami, FL 33129",
      "location": "Miami, Fl",
      "type_of_museum":"History and Garden",
-     "DESCRIPTIO": "The Vizcaya Museum and Gardens, previously known as Villa Vizcaya, is the former villa and estate of businessman James Deering, of the Deering McCormick-International Harvester fortune."
+     "DESCRIPTIO": "The Vizcaya Museum and Gardens, previously known as Villa Vizcaya, is the former villa and estate of businessman James Deering, of the Deering McCormick-International Harvester fortune.",
+     "TIME": "Wednesday to Monday: 9:30am to 4:30pm, Closed Tuesday"
     },
     "geometry": {
       "type": "Point",
@@ -78,7 +82,8 @@
    "ADDRESS": "23 NE 41st St, Miami, FL 33137",
    "location": "Miami, Fl",
    "type_of_museum":"Art",
-   "DESCRIPTIO": "Owned by the Cuban-born American businessman Carlos de la Cruz and his wife Rosa. It houses their art collection and is open to the public free of charge."
+   "DESCRIPTIO": "Owned by the Cuban-born American businessman Carlos de la Cruz and his wife Rosa. It houses their art collection and is open to the public free of charge.",
+   "TIME": "Tuesday - Saturday: 10am to 4pm, Closed Sunday and Monday"
     },
     "geometry": {
       "type": "Point",
@@ -94,7 +99,8 @@
       "ADDRESS": "12450 SW 152nd St, Miami, FL 33177",
       "location": "Miami, Fl",
       "type_of_museum":"History",
-      "DESCRIPTIO": "Is the largest collection of trains in Floirda. Features FDR train Cart. It also have a working locomative."
+      "DESCRIPTIO": "Is the largest collection of trains in Floirda. Features FDR train Cart. It also have a working locomative.",
+      "TIME": "Monday - Friday: 10am to 4pm, Saturday - Sunday 11am to 4pm"
     },
     "geometry": {
       "type": "Point",
@@ -110,11 +116,12 @@
     "ADDRESS": "736 Collins Ave, Miami Beach, FL 33139",
     "location": "Miami, Fl",
     "type_of_museum":"Digital Art",
-    "DESCRIPTIO": "Is a digital art experence."
+    "DESCRIPTIO": "Is a digital art experence.",
+    "TIME": "Sunday - Wednesday: 12pm - 10pm, Saturday: 12pm - 11pm, Closed Thursday - Friday"
   },
   "geometry": {
     "type": "Point",
-    "coordinates": [-80.400757, 25.617174]
+    "coordinates": [-80.132637, 25.777670]
   }
 },
   {
@@ -126,7 +133,8 @@
     "ADDRESS": "401 SW 2nd St, Fort Lauderdale, FL 33312",
     "location": "Fort Lauderdale, Fl",
     "type_of_museum":"Science",
-    "DESCRIPTIO": "The features mutiple simulaters, wildlife, and inter active exhibits."
+    "DESCRIPTIO": "The features mutiple simulaters, wildlife, and inter active exhibits.",
+    "TIME": "Monday - Saturday: 10am to 5pm, Sunday: 12pm to 5pm"
   },
   "geometry": {
     "type": "Point",

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../styles/navbar.css';
+import Forex from './Forex';
 
 class Navbar extends Component{
   render () {
@@ -10,8 +11,12 @@ class Navbar extends Component{
             <li><a href="/">Home</a></li>
             <li><a href="/Attract">Attraction Map</a></li>
             <li><a href="/Museums">Museum Map</a></li>
-            <li><Link to="/forex">Money</Link></li>
-            <li><Link to="/blog">Travel Logs</Link></li>
+            <div className="dropdown">
+              <span>Foreign Currency Rates</span>
+              <div className="dropdown-content">
+                <Forex/>
+              </div>
+            </div>
         </div>
       )
     }
