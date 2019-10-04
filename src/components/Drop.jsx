@@ -5,10 +5,12 @@ import Forex from './Forex';
 class Blog extends Component {
   render () {
     return(
-      <div className="dropdown">
-        <span>Foreign Currency Rates</span>
-        <div className="dropdown-content">
-          <Forex/>
+      <div className="dropdown-master">
+        <div className="dropdown">
+          <span>Foreign Currency Rates</span>
+          <div className="dropdown-content">
+            <Forex/>
+          </div>
         </div>
       </div>
         )

@@ -1,3 +1,8 @@
+.dropdown-master{
+  display: flex;
+  justify-content:flex-end;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
