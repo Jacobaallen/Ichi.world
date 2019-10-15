@@ -2,16 +2,40 @@ body {
   display: block;
 }
 
+.logo-image{
+  background-image: url("/images/giphy.gif");
+  background-repeat: no-repeat;
+  height: 50px;
+  background-position: center;
+  padding: 200px;
+}
+
 .hero-image {
   background-image: url("/images/Travel-hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  top: 50%;
   height: 800px;
+}
+
+.about-header {
+  background-image: url("/images/travel-image-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+  position: inherit;
+  font-size: 50px;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  margin: 150px
 }
 
 
 @media screen and (max-width: 900px) {
-  
+
 }
