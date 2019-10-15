@@ -13,7 +13,9 @@
         "NAME": "Bayside Marketplace",
         "ADDRESS": "401 Biscayne Blvd",
         "location": "Miami, FL",
-        "type_of_Attraction":"Outdoor Mall"
+        "type_of_Attraction":"Outdoor Mall",
+        "DESCRIPTIO": "Bayside Marketplace is a two-story open air shopping center located in the downtown Miami, Florida.",
+        "TIME": "Monday - Saturday: 10am to 10pm, Sunday: 11am to 9pm"
       },
       "geometry": {
         "type": "Point",
@@ -25,14 +27,33 @@
       "properties" : {
         "ATTRACTION_ID" : 2,
         "FACILITYID" : 20002,
-        "NAME": "Miami Heat",
+        "NAME": "Miami Heat Arena",
         "ADDRESS": "601 Biscayne Blvd",
         "location": "Miami, Fl",
-        "type_of_Attraction":"Professional Basketball"
+        "type_of_Attraction":"Professional Basketball",
+        "DESCRIPTIO": "The American Airlines Arena is a sports and entertainment arena located in Downtown Miami, Florida along Biscayne Bay. It was constructed beginning in 1998 as a replacement for the Miami Arena and designed by the architecture firms Arquitectonica and 360 Architecture.",
+        "TIME": "See Website https://www.aaarena.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [-80.18722, 25.78083]
+      }
+    },
+    {
+      "type" : "Feature",
+      "properties" : {
+        "MUSEUM_ID" : 2,
+        "FACILITYID" : 20003,
+        "NAME": "Miami Seaquarium",
+        "ADDRESS": "4400 Rickenbacker Causeway, Miami, FL 33149",
+        "location": "Miami, Fl",
+        "type_of_museum":"Zoo",
+        "DESCRIPTIO": "The Miami Seaquarium is a 38-acre oceanarium located on the island of Virginia Key in Biscayne Bay, Miami-Dade County, Florida, United States and is located near downtown Miami. Founded in 1955, it is one of the oldest oceanariums in the United States.",
+        "TIME": "Monday - Sunday: 10am to 6pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1655603, 25.7329994]
       }
     }
   ]
