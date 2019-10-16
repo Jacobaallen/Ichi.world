@@ -47,7 +47,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
                 setSelectetMuseum(museum)
               }}
             >
-              <img src="/images/Museum.png" alt="Museum Icon" />
+              <img src="/images/theme.png" alt="Museum Icon" />
             </button>
           </Marker>
         ))}
