@@ -9,13 +9,14 @@ class Home extends Component {
   render () {
     return(
       <div className="master">
-        <div className="logo-image">
+        <div className="hero-image">
 
         </div>
-        <div className="about-master">
-          <div className="about-header">
-            <h2>About</h2>
-          </div>
+        <div className="about-master" id="about">
+          <div className="about-image">
+            <div className="about-header">
+              <h2>About</h2>
+            </div>
             <div className="about-text">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Non blandit massa enim nec dui nunc. Aliquam sem et tortor consequat id. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
@@ -25,6 +26,7 @@ class Home extends Component {
               </p>
             </div>
           </div>
+        </div>
 
 
 
