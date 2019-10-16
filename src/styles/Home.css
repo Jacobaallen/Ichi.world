@@ -20,22 +20,44 @@ body {
   height: 800px;
 }
 
-.about-header {
+.about-image {
   background-image: url("/images/travel-image-1.png");
   background-repeat: no-repeat;
   background-position: right;
   height: 500px;
-  position: inherit;
+}
+
+.about-header {
+  display: flex;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 100px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-size: 50px;
 }
 
 .about-text {
   display: flex;
-  justify-content: center;
-  margin: 150px
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 300px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 500px;
+  font-size: 30px;
 }
 
 
 @media screen and (max-width: 900px) {
-
+  .hero-image {
+    background-image: url("/images/Travel-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+  }
 }
