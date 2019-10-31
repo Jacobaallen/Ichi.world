@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import Calendar from './Calendar';
+import '../styles/Events.css';
 
 class Events extends Component {
   render () {
     return(
-      <p>hello world</p>
+      <div className="calendar" id="calendar">
+        <Calendar/>
+      </div>
     )
   }
 }
