@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 import Museums from './components/Museums';
 import Attraction from './components/Attract';
 import Drop from './components/Drop';
-import Events from './components/Events';
 
 class App extends React.Component{
   render () {
@@ -19,7 +18,6 @@ class App extends React.Component{
       <Route exact path="/forex" component={Forex} />
       <Route exact path="/museums" component={Museums} />
       <Route exact path="/attract" component={Attraction} />
-      <Route exact path="/events" component={Events} />
     </Router>
   )}
 }
