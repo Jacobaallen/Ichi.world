@@ -97,10 +97,10 @@
       "properties" : {
         "MUSEUM_ID" : 5,
         "FACILITYID" : 20005,
-        "NAME": "Xtreme Action Park",
-        "ADDRESS": "5300 Powerline Rd, Fort Lauderdale, FL 33309",
-        "location": "Fort Lauderdale, FL",
-        "type_of_museum":"Amusement Park",
+        "NAME": "TIDAL COVE WATERPARK",
+        "ADDRESS": " Don Soffer Exercise Trail, 19999 W Country Club Dr, Aventura, FL 33180",
+        "location": "Aventura, FL",
+        "type_of_museum":"Water Park",
         "DESCRIPTIO": "Complex with a half-mile asphalt go-kart track, bowling lanes, an indoor ropes course, mutiple restaurants, & a bar.",
         "TIME": "Monday - Friday: 9am–6pm and Saturday - Sunday: 9am-7pm",
         "Website" : "https://xtremeactionpark.com/"
