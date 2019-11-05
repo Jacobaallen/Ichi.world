@@ -5,13 +5,37 @@ import "../styles/Map.css";
 
 
 export  default function App() {
-const [viewport, setViewport] = useState({
+const [viewport, setViewport]: {
   latitude:25.774266,
   longitude:-80.193659,
   width: '100ve',
   height: '100vh',
   zoom: 10
-});
+},
+userLocation: {}
+};
+
+setUserLocation = () => {
+  navigator.geolocation.getCurrentPosition(position => {
+     let setUserLocation = {
+         lat: position.coords.latitude,
+         long: position.coords.longitude
+      };
+     let newViewport = {
+        height: "100vh",
+        width: "100vw",
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+        zoom: 10
+      };
+      this.setState({
+        viewport: newViewport,
+        userLocation: setUserLocation
+     });
+  });
+};
+
+
 const [selectedMuseum, setSelectetMuseum] = useState(null);
 
 //this is to use the button esc on the key board.
@@ -26,8 +50,12 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
 
   }, []);
 
+
+
   return (
-    <div>
+    <div className="App">
+      <button onClick={this.setUserLocation}>My location</button>
+      <div className="map-1">
       <ReactMapGL {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
         mapStyle="mapbox://styles/loghorizon/cjzuari2j024k1cpmup5rkywa"
@@ -69,8 +97,10 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
           </Popup>
         ) : null}
       </ReactMapGL>
+      </div>
     </div>
 
-  );
+  )
+  }
 
 }
