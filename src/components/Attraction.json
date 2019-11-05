@@ -42,7 +42,7 @@
     {
       "type" : "Feature",
       "properties" : {
-        "MUSEUM_ID" : 2,
+        "MUSEUM_ID" : 3,
         "FACILITYID" : 20003,
         "NAME": "Miami Seaquarium",
         "ADDRESS": "4400 Rickenbacker Causeway, Miami, FL 33149",
@@ -54,6 +54,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-80.1655603, 25.7329994]
+      }
+    },
+    {
+      "type" : "Feature",
+      "properties" : {
+        "MUSEUM_ID" : 4,
+        "FACILITYID" : 20004,
+        "NAME": "Gulfstream Park Racing and Casino",
+        "ADDRESS": "901 Federal Hwy, Hallandale Beach, FL 33009",
+        "location": "Hallandale Beach, FL",
+        "type_of_museum":"Casino and shops",
+        "DESCRIPTIO": "Gulfstream Park is a racetrack and county-approved casino in Hallandale Beach, Florida. During its annual meet, which spans December through October, it is one of the most important venues for horse racing in the USA.",
+        "TIME": "Monday - Sunday: 9am–3am",
+        "Website" : "https://www.gulfstreampark.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.138834, 25.977748]
+      }
+    },
+    {
+      "type" : "Feature",
+      "properties" : {
+        "MUSEUM_ID" : 5,
+        "FACILITYID" : 20005,
+        "NAME": "Xtreme Action Park",
+        "ADDRESS": "5300 Powerline Rd, Fort Lauderdale, FL 33309",
+        "location": "Fort Lauderdale, FL",
+        "type_of_museum":"Amusement Park",
+        "DESCRIPTIO": "Complex with a half-mile asphalt go-kart track, bowling lanes, an indoor ropes course, mutiple restaurants, & a bar.",
+        "TIME": "Sunday - Thursday: 11am–10pm and Friday - Saturday: 11am-12am",
+        "Website" : "https://xtremeactionpark.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.153396, 26.192202]
+      }
+    },
+    {
+      "type" : "Feature",
+      "properties" : {
+        "MUSEUM_ID" : 5,
+        "FACILITYID" : 20005,
+        "NAME": "Xtreme Action Park",
+        "ADDRESS": "5300 Powerline Rd, Fort Lauderdale, FL 33309",
+        "location": "Fort Lauderdale, FL",
+        "type_of_museum":"Amusement Park",
+        "DESCRIPTIO": "Complex with a half-mile asphalt go-kart track, bowling lanes, an indoor ropes course, mutiple restaurants, & a bar.",
+        "TIME": "Monday - Friday: 9am–6pm and Saturday - Sunday: 9am-7pm",
+        "Website" : "https://xtremeactionpark.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.153396, 26.192202]
       }
     }
   ]
