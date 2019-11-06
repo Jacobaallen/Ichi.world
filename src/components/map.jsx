@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl";
+import ReactMapGL, { Marker, Popup, NavigationControl, GeolocateControl } from "react-map-gl";
 import * as museumData from "./museum.json";
 import "../styles/Map.css";
 
@@ -68,7 +68,11 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
             </div>
           </Popup>
         ) : null}
-        <NavigationControl/>
+        <GeolocateControl
+        positionOptions={{enableHighAccuracy: true}}
+        trackUserLocation={true}
+        />
+      <NavigationControl/>
       </ReactMapGL>
     </div>
 
