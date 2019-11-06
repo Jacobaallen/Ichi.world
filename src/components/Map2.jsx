@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl";
+import ReactMapGL, { Marker, Popup, NavigationControl, GeolocateControl } from "react-map-gl";
 import * as attractionData from "./Attraction.json";
 import "../styles/Map2.css";
 
@@ -35,6 +35,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
           setViewport(viewport);
         }}
         >
+
         {attractionData.features.map(museum => (
           <Marker
             key={museum.properties.MUSEUM_ID}
@@ -68,7 +69,11 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
             </div>
           </Popup>
         ) : null}
-        <NavigationControl/>
+        <GeolocateControl
+        positionOptions={{enableHighAccuracy: true}}
+        trackUserLocation={true}
+        />       
+      <NavigationControl/>
       </ReactMapGL>
     </div>
 
