@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ReactMapGL, { Marker, Popup } from "react-map-gl";
+import ReactMapGL, { Marker, Popup, NavigationControl } from "react-map-gl";
 import * as attractionData from "./Attraction.json";
 import "../styles/Map2.css";
 
@@ -68,6 +68,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
             </div>
           </Popup>
         ) : null}
+        <NavigationControl/>
       </ReactMapGL>
     </div>
 
