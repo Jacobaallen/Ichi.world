@@ -10,10 +10,6 @@ class Home extends Component {
     return(
       <div className="master">
         <div className="hero-image">
-          <div className="logo-plane">
-            <img src="/images/plane-logo.png" alt="logo" width="300px" />
-          </div>
-
         </div>
         <div className="about" id="about">
           <div className="about-master">
