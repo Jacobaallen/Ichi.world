@@ -11,7 +11,7 @@ body {
 }
 
 .hero-image {
-  background-image: url("/images/Travel-hero.png");
+  background-image: url("/images/hero-video.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,7 +27,7 @@ body {
 
 .about {
   text-align: center;
-  font-size: 2em;
+  font-size: 20px;
 }
 
 .about-master{
@@ -63,5 +63,34 @@ body {
     background-attachment: fixed;
     height: 800px;
     width: 100%;
+  }
+
+  .about {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .about-master{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+  }
+
+  .about-title{
+    text-align: center;
+    padding: 1px;
+  }
+
+  .aboutPic {
+    float: right;
+    padding: 1px
+  }
+
+  .about-text{
+    height: 50%;
+    justify-content:center;
+    float: right;
+    padding: 0;
+    margin: 0;
   }
 }
