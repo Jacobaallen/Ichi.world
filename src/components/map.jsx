@@ -61,7 +61,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
                setSelectetMuseum(null);
              }}
              >
-            <div>
+            <div className="popup">
               <h2>{selectedMuseum.properties.NAME}</h2>
               <p>{selectedMuseum.properties.DESCRIPTIO}</p>
               <p>{selectedMuseum.properties.TIME}</p>
