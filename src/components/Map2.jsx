@@ -62,7 +62,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
                setSelectetMuseum(null);
              }}
              >
-            <div>
+            <div className="cards">
               <h2>{selectedMuseum.properties.NAME}</h2>
               <p>{selectedMuseum.properties.DESCRIPTIO}</p>
               <p>{selectedMuseum.properties.TIME}</p>
@@ -72,7 +72,7 @@ const [selectedMuseum, setSelectetMuseum] = useState(null);
         <GeolocateControl
         positionOptions={{enableHighAccuracy: true}}
         trackUserLocation={true}
-        />       
+        />
       <NavigationControl/>
       </ReactMapGL>
     </div>
