@@ -19,7 +19,6 @@ body {
 
 @media screen and (max-width: 900px) {
   .map2 {
-    height: 100%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
