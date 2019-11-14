@@ -24,6 +24,10 @@ code {
 }
 
 .mapboxgl-ctrl-group {
-    width: 30px;
-    margin: 10px 0 0 10px;
+  width: 30px;
+  margin: 10px 0 0 10px;
+}
+
+.cards {
+  width: 300px;
 }
