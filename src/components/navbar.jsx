@@ -12,6 +12,7 @@ class Navbar extends Component{
             <li><a href="/Attract">Attraction Map</a></li>
             <li><a href="/Museums">Museum Map</a></li>
             <li><a href="/Events">Events</a></li>
+            <li><a href="/LogBook">Log Book</a></li>
         </div>
       )
     }
