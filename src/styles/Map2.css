@@ -31,3 +31,8 @@ code {
 .cards {
   width: 300px;
 }
+
+.element.style {
+  height: 300px;
+  width: 200px;
+}
