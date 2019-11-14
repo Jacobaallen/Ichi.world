@@ -28,8 +28,6 @@ code {
     margin: 10px 0 0 10px;
 }
 
-.popup {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+.cards {
+  width: 300px;
 }
