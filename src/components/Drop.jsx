@@ -6,9 +6,6 @@ class Blog extends Component {
   render () {
     return(
       <div className="dropdown-master">
-        <div className="logo-head">
-          <a href="/"><img src="/images/name-logo.png" alt="logo" height="40"/></a>
-        </div>
         <div className="dropdown">
           <span>Foreign Currency Rates</span>
           <div className="dropdown-content">
