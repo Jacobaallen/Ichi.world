@@ -95,19 +95,19 @@
     {
       "type" : "Feature",
       "properties" : {
-        "MUSEUM_ID" : 5,
-        "FACILITYID" : 20005,
+        "MUSEUM_ID" : 6,
+        "FACILITYID" : 20006,
         "NAME": "TIDAL COVE WATERPARK",
         "ADDRESS": " Don Soffer Exercise Trail, 19999 W Country Club Dr, Aventura, FL 33180",
         "location": "Aventura, FL",
         "type_of_museum":"Water Park",
-        "DESCRIPTIO": "Complex with a half-mile asphalt go-kart track, bowling lanes, an indoor ropes course, mutiple restaurants, & a bar.",
+        "DESCRIPTIO": "Daring drops, turns, and twisting spirals await when you make a splash at Tidal Cove! Conquer a gravity-defying raft ride, thrill to a freefall loop, meander along a lazy river, and make a new friend in the Kids Cove. Whether you’re relaxing beneath one of 25 breezy cabanas, enjoying a bite to eat, or experiencing the ride of your life, you’re sure to find it at Tidal Cove.",
         "TIME": "Monday - Friday: 9am–6pm and Saturday - Sunday: 9am-7pm",
         "Website" : "https://xtremeactionpark.com/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-80.153396, 26.192202]
+        "coordinates": [-80.139575, 25.961731]
       }
     }
   ]
