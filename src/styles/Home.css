@@ -56,7 +56,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .hero-image {
-    background-image: url("/images/Travel-hero.png");
+    background-image: url("/images/Travel-hero-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
