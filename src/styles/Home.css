@@ -52,6 +52,11 @@ body {
   padding: 8px;
   margin: 20px;
   float: right;
+  bottom: 50px;
+}
+
+.about-information {
+
 }
 
 @media screen and (max-width: 900px) {
@@ -92,5 +97,6 @@ body {
     float: right;
     padding: 0;
     margin: 0;
+    padding-bottom: 100px;
   }
 }
