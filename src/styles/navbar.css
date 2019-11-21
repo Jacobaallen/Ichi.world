@@ -23,6 +23,7 @@ body {
 
 li {
   float: left;
+  padding-top: 15px;
 }
 
 li a {
@@ -64,6 +65,24 @@ li a:hover {
     flex-direction: row;
     font-size: 10px;
     z-index: 9999;
+  }
+
+  li {
+    float: left;
+    padding-top: 1px;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    float: left;
+  }
+
+  li a:hover {
+    background-color: #111;
   }
 }
 
