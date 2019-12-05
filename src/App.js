@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Museums from './components/Museums';
 import Attraction from './components/Attract';
 import Drop from './components/Drop';
+import LogBook from './components/LogBook';
 
 class App extends React.Component{
   render () {
