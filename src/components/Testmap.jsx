@@ -1,5 +1,4 @@
 import React, { Components } from 'react';
-import Map3 from "./Map3.jsx";
 import '../styles/testmap.css';
 
 import { get } from 'lodash';
