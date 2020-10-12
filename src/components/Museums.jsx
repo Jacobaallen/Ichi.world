@@ -11,6 +11,7 @@ class Museums extends Component {
             <a href="/"><img src="/images/name-logo.png" alt="logo" height="30"/></a>
           </div>
           <h1>Museums</h1>
+          <p>hello, world</p>
         </div>
         <div className="map" id="map">
           <Map/>
